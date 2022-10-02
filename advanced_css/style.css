@@ -2,6 +2,15 @@ img {
   width: 450px;
   height: 300px;
   margin: 10px;
+  transition: all 1s;
+}
+
+body{ 
+    margin: 0px;
+}
+
+img:hover{
+    transform: scale(1.1);
 }
 
 .container {
@@ -16,5 +25,12 @@ h1{
     border-bottom: 2px solid pink;
     width: 400px;
     text-align: center;
-    border-right: 2px solid pink
+    border-right: 2px solid pink;
+    box-shadow: 4px 4px 5px #888888;
+    -moz-box-shadow: 4px 4px 5px #888888;
+    -ms-box-shadow: 4px 4px 5px #888888;
+    -webkit-box-shadow: 4px 4px 5px #888888;
+    -o-box-shadow: 4px 4px 5px #888888;
+    box-shadow: 4px 4px 5px #888888;
+    margin-top: 10px;
 }
